@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript2</title>
+</head>
+    <script type="text/javascript">
+
+        function gatherData(){  
+            var name;
+            var birthYear; 
+            var age;
+            var currentYear;
+
+            name="Javoy Spence";
+            
+            name=prompt("Please Enter Your name:", "John Doe");
+            birthYear=prompt("Please Enter Your birthYear:");
+            currentYear=prompt("Please enter the currentYear");
+            age = currentYear-birthYear;
+            document.write("Hello " + name + "This year you are " + age + "years old");
+        }
+        
+        
+      
+        
+        
+    </script>
+
+    
+    
+    
+
+<body>
+   <button onclick="gatherData()">FetchData</button>
+   
+    
+    
+</body>
+</html>

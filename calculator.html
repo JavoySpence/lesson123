@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript3</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<script type="text/javascript">
+
+   
+ function gatherData(){  
+        var firstNum;
+        var secondNum; 
+        var product;
+        
+        firstNum=prompt("Please Enter firstNum:");
+        secondNum=prompt("Please enter the secondNum");
+        product = firstNum*secondNum;
+        document.write("product = " + product);
+    }
+
+    
+    
+       
+</script>
+<script type="text/javascript">
+    function getData(){  
+      var firstNum; 
+      var secondNum; 
+      
+      
+      firstNum=prompt("Please Enter firstNum:");
+      secondNum=prompt("Please enter the secondNum");
+      sum = parseInt(firstNum) + parseInt(secondNum);
+      document.write("sum = " + sum);
+  
+  }
+      
+    
+  
+  </script>
+
+
+<script type="text/javascript">
+    function divideData(){  
+      var firstNum; 
+      var secondNum; 
+      
+      
+      firstNum=prompt("Please Enter firstNum:");
+      secondNum=prompt("Please enter the secondNum");
+      quotient= parseInt(firstNum) / parseInt(secondNum);
+      document.write("sum = " + quotient);
+  
+  }
+      
+    
+  
+  </script>
+
+
+
+
+ 
+<body>
+
+  <button onclick="gatherData()">ProductCalculator</button>
+
+<button onclick="getData()">SumCalculator</button>
+
+<button onclick="divideData()">divisionCalculator</button>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script type="text/javascript"> 
+          function personalInfo (){
+            var name = document.getElementById("name");
+            var age = document.getElementById("age");
+            var address = document.getElementById("address");
+             var telnum = document.getElementById("telnum");
+            var result = document.getElementById("result");
+            var info = "<h2>Results:</h2> <br>"
+            result.innerHTML= result.html + "<b>Name:</b>" + name.value + "<br> <b>Age:</b>" + age.value;
+            result.innerHTML = result.innerHTML + "<br> <b>ADDRESS:</b>" + address.value + "<br> <b>Telnum: </b>" + telnum.value;
+            
+        }
+    </script>
+ <body>
+      
+
+      <input type="text" id="age">
+      <input type="text" id="address">
+      <input type="text" id="telnum">
+      <button onclick="personalInfo()">click me</button>
+     <p id="result"></p>
+    </form>
+</body>
+</html>

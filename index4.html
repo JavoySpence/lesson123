@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+   
+
+
+ <script type="text/javascript"> 
+
+ function calculate(){  
+            var num1 =document.getElementById("num1");
+            var num2 =document.getElementById("num2");
+            num3.innerHTML = parseInt(num1.value) + parseInt(num2.value);
+                    result.innerHTML = num3.value;
+    }
+     function product(){  
+        var num4=document.getElementById("num4");
+        var num5 =document.getElementById("num5");
+        num6.innerHTML = parseInt(num4.value) * parseInt(num5.value);
+        result.innerHTML = num6.value;
+        
+    }
+   
+    function Area(){  
+        const PI = 3.14;
+        var num13 = document.getElementById("num13");
+        var num14 = document.getElementById("num12");
+        num15.innerHTML = parseInt(num12) * parseInt(num13) * parseInt(num13);
+        result.innerHTML = num15.value;        
+    }
+
+    function difference(){             
+        var num10 =document.getElementById("num10");
+        var num11 =document.getElementById("num11");
+        num12.innerHTML = parseInt(num10.value) - parseInt(num11.value);
+        result.innerHTML = num12.value;
+        
+    }
+
+
+    function quotient(){  
+        var num7=document.getElementById("num7");
+        var num8 =document.getElementById("num8");
+        num9.innerHTML = parseInt(num7.value) / parseInt(num8.value);
+        result.innerHTML = num9.value;
+        
+    }
+    
+</script>
+
+    
+    
+   
+</head>
+<body>
+     
+    
+    <input type="text"  id="num1">
+    <input type="text" id="num2" >
+    <button onclick=" calculate()">sum</button>
+    <p id="num3"></p>
+   
+   
+    <input type="text"  id="num4">
+    <input type="text" id="num5" >
+    <button onclick=" product()">product</button>
+    <p id="num6"></p>
+
+    <input type="text"  id="num7">
+    <input type="text" id="num8" >
+    <button onclick=" quotient()">quotient</button>
+    <p id="num9"></p>
+
+    <input type="text"  id="num10">
+    <input type="text" id="num11" >
+    <button onclick=" difference()">difference</button>
+    <p id="num12"></p>
+
+    
+    <input placeholder="Enter radius here"  id="num13">
+    <input placeholder="Enter pi here" id="num12">
+    <button onclick="Area()">Area</button>
+    <p id="num15"></p>
+
+
+
+
+   
+   
+
+    
+    
+    
+    
+</body>
+</html>
